@@ -4,6 +4,11 @@
 # import demucs
 # Attemt calling the python api
 
+import ssl
+import certifi
+
+ssl._create_default_https_context = ssl._create_unverified_context
+ssl._create_default_https_context().load_default_certs()
 
 import demucs.api
 import demucs.separate

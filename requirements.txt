@@ -1,0 +1,15 @@
+
+ffmpeg
+ffprobe
+flask
+cython==0.29.36
+librosa
+python-dotenv
+mutagen
+pandas
+numpy>=1.20.3
+tensorflow
+basic-pitch
+soundfile
+pydub
+catboost
